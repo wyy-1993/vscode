@@ -5,6 +5,9 @@
 # @File : demo1.py.py
 # @Project : 12Testing
 
+import  sys
+
+print(sys.path)
 __all__ = []
 
 hell0 = 'hello demo1'
