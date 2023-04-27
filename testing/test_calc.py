@@ -14,3 +14,7 @@ class TestCal(unittest.TestCase):
         result = self.cal.add(1,2)
         self.assertEqual(3,result)
         print(result)
+
+    def test_minus(self,a,b):
+        self.cal =cal()
+

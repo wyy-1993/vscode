@@ -4,6 +4,7 @@
 # @Email : 18826478943@163.com
 # @File : calc.py
 # @Project : 12Testing
+import warnings
 
 class cal():
     def add(self,a,b):
@@ -11,4 +12,12 @@ class cal():
 
     def div(self,a,b):
         return a/b
+
+
+    def mul(self,a,b):
+        return a*b
+
+    def minus(self,a,b):
+        return a-b
+
 
